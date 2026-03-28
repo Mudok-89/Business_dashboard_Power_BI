@@ -16,15 +16,20 @@ The dashboard is designed to help managers:
 - identify trends and seasonal patterns
 
 ## Data sources
-The following tables were used from the MySQL database:
-- `offices`
-- `employees`
-- `customers`
-- `orders`
-- `payments`
-- `productlines`
-- `products`
-- `orderdetails`
+
+The project is based on source data exported from the MySQL schema `exam14_99`. The original source file names were preserved to reflect the structure of the database tables.
+
+Main source files:
+- `exam14_99_customers.csv`
+- `exam14_99_employees.csv`
+- `exam14_99_offices.csv`
+- `exam14_99_orderdetails.csv`
+- `exam14_99_orders.csv`
+- `exam14_99_payments.csv`
+- `exam14_99_productlines.csv`
+- `exam14_99_products.csv`
+
+The original source file names were preserved to reflect the structure of the source database tables.
 
 ## Data preparation
 Data was imported from MySQL into Power BI and transformed in Power Query.
@@ -95,10 +100,11 @@ This dashboard helps management:
 
 ## Files in this repository
 - `README.md` – project overview and documentation
-- `business_dashboard.pbix` – Power BI dashboard file
-- `presentation.pdf` – final presentation of the dashboard
-- `screenshots/` – selected dashboard screenshots
-- `sql_queries/` – optional supporting SQL queries used for validation or exploration
+- `DashBoard Class Models.pbix` – Power BI dashboard file
+- `project_brief_CZ.pdf` – project brief in Czech
+- `project_brief_en.pdf` – project brief in English
+- `data/` – source CSV files used in the dashboard
+- `data/README.md` – additional notes related to source data files
 
 ## Skills demonstrated
 - Power BI
@@ -115,3 +121,4 @@ This dashboard helps management:
 
 ## Notes
 This project was created as a business intelligence and reporting exercise focused on transforming raw relational data into an interactive dashboard for management use.
+
